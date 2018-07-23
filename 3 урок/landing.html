@@ -3,166 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Document</title>
 </head>
-<body>
-  <style type="text/css">
-    .header{
-      padding: 10px 0;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      z-index:997;
-      background: rgba(138, 144, 255, 0.9); 
-    }
-    .menu-nav_item{
-      list-style: none;
-    }
+  <body>
+     <style type="text/css">
+        .header{
+             padding: 10px 0;
+                 position: fixed;
+                     left: 0;
+                         right: 0;
+                             top: 0;
+                                 z-index:997;
+                                     background: rgba(138, 144, 255, 0.9);
+         }
+         .menu-nav_item{
+             list-style: none;
+         }
 
-    .menu-nav_link{ 
+         .menu-nav_link{
 
-      text-decoration: none; 
+             text-decoration: none;
 
-      display: inline-block; 
+                 display: inline-block;
 
-      color: #fff; 
+                     color: #fff;
 
-      font-weight: 400; 
+                         font-weight: 400;
 
-      font-size: 12px; 
+                             font-size: 12px;
 
-      text-transform: uppercase; 
+                                 text-transform: uppercase;
 
-      outline: none; 
-    } 
+                                     outline: none;
+         }
 
-    .selection_banner{
-         background:url(img/banner-bg.jpg);
-         background-size:cover;
-    }
+         .selection_banner{
+             background:url(img/banner-bg.jpg);
+                 background-size:cover;
+         }
 
-    .container{
-          max-width:1140px;
-          padding:0 15px;
-          margin:0 auto;
-    }
+         .container{
+             max-width:1140px;
+                 padding:0 15px;
+                     margin:0 auto;
+         }
 
-    .banner{
-          margin-top:120px;
-          padding:120px o;
-    }
+         .banner{
+             margin-top:120px;
+                 padding:120px o;
+         }
 
-     .banner-text_header{
-          color:white;
-          font-size:48px;
-          font-weight:600;
-          text-align:center;
-     }
-      
-      .banner-text_body{
-          text-align:center;
-          padding:10px 0;
-      }
+         .banner-text_header{
+             color:white;
+                 font-size:48px;
+                     font-weight:600;
+                         text-align:center;
+         }
 
-       .banner-text_body a{
-          text-decoration:none;
-          color:white;
-          font-weight:300;
-          font-size:14px;
-       }
+         .banner-text_body{
+             text-align:center;
+                 padding:10px 0;
+         }
 
-        .banner-text_body span{
-          color:white;
-          font-weight:300;
-          font-size:14px;
-          padding:0 5px;
-        }
-        
-        *{
-          padding:0;
-          margin:0;
-        }
-  </style>
-  <header class="header">
-    <div class="container">
-      <div class="menu"></div>
-      <div class="menu-logo">
-        <a href="#" class="menu-logo_link">
-        <img src="img/logo.png"></a>
-      </div> 
-      <div class="menu-nav-container">
-        <div class="menu-nav-container">
-          <div class="container"> 
+         .banner-text_body a{
+             text-decoration:none;
+                 color:white;
+                     font-weight:300;
+                         font-size:14px;
+         }
 
-            <ul class="menu-nav"> 
+         .banner-text_body span{
+             color:white;
+                 font-weight:300;
+                     font-size:14px;
+                         padding:0 5px;
+         }
 
-            <li class="menu-nav_item"><a href="#" class="menu-nav_link">home</a></li> 
+  *{
+     padding:0;
+     margin:0;
+   }
 
-            <li class="menu-nav_item"><a href="#" class="menu-nav_link">about</a></li> 
+         .section_main{
+             padding:120px o;
+         }
 
-            <li class="menu-nav_item"><a href="#" class="menu-nav_link">services</a></li> 
+         .section_header{
+             text-align:center;
+         }
 
-            <li class="menu-nav_item"><a href="#" class="menu-nav_link">products</a></li> 
+         h1{
+             font-size:36px;
+                 color:#222222;
+         }
 
-            <li class="menu-nav_item"><a href="#" class="menu-nav_link">blog</a></li> 
+         .product-card-wrap{
+             padding:15px;
+                 width:25%;
+         }
 
-            <li class="menu-nav_item"><a href="#" class="menu-nav_link">contact</a></li> 
+         .product-card{
+             min-width:255px;
+                 text-align:center;
+                     border-radius:10px;
+                         background-color:white;
+                              box-shadow:0px 10px 30px 0px rgba(212,150,255,0.2)
+         }
 
-            </ul>  
+         .product-card_image-wrap{
+             padding:40px;
+                 border-bottom:1px solid #eee;
+         }
 
-            </div>
-          </div> 
-      </div>
-    </div>
-  </header>
+         .product-card_details{
+             padding:20px;
+                 background-color:#f9f9ff;
+         }
 
-<main class="main"> 
+         h4{
+             font-size:18px;
+         }
 
-    <section class="section section_banner"> 
+         .product-card_button{
+             display:inline-block;
+             text-decoration:none;
+             margin-top:10px;
+             background:#fff;
+             color:#222 !important;
+             font-weight:600;
+             line-height:42px;
+             padding-left:30px;
+             padding-right:30px;
+             border:1px solid transparent;
+             cursor:ponter;
+             position:relative;
+             text-transform:uppercase;
+         }
 
-        <div class="container"> 
+         .footer{
+             background:url(img/footer-bg.jpg);
+                 background-size:cover;
+                     padding-top:100px;
+                         padding-bottom:120px;
+         }
 
-            <div class="banner-container"> 
+         .footer-block_last{
+             padding-top:120px;
+             color:white;
+         }
 
-                <div class="banner"> 
+         .copyright{
+             padding:0 15px;
+         }
 
-                    <div class="banner-text"> 
+</style>
 
-                        <h1 class="banner-text_header">Products</h1> 
+     <header class="header">
+         <div class="container">
+         <div class="menu"></div>
+         <div class="menu-logo">
+         <a href="#" class="menu-logo_link">
+         <img src="img/logo.png"></a>
+</div>
+         <div class="menu-nav-container">
+         <div class="menu-nav-container">
+         <div class="container">
 
-                        <div class="banner-text_body"> 
+    <ul class="menu-nav">
 
-                            <a href="#">Home</a> 
+         <li class="menu-nav_item"><a href="#" class="menu-nav_link">home</a></li>
 
-                            <span>→</span> 
+             <li class="menu-nav_item"><a href="#" class="menu-nav_link">about</a></li>
 
-                            <a href="#">Products</a> 
+                 <li class="menu-nav_item"><a href="#" class="menu-nav_link">services</a></li>
 
-                        </div> 
+                     <li class="menu-nav_item"><a href="#" class="menu-nav_link">products</a></li>
 
-                    </div> 
+                         <li class="menu-nav_item"><a href="#" class="menu-nav_link">blog</a></li>
 
-                </div> 
+                             <li class="menu-nav_item"><a href="#" class="menu-nav_link">contact</a></li>
 
-            </div> 
+                             </ul>
 
-        </div> 
+                         </div>
+                     </div>
+                 </div>
+             </div>
 
-    </section> 
+</header>
 
-    <selection class="section section_main">
-        <div class="container"></div>
-    </selection>
+     <main class="main">
 
-</main> 
+    <section class="section section_banner">
 
-  <footer class="footer">
-    
-  </footer>
+         <div class="container">
 
-    
-  
+             <div class="banner-container">
+
+                 <div class="banner">
+
+                     <div class="banner-text">
+
+                         <h1 class="banner-text_header">Products</h1>
+
+                             <div class="banner-text_body">
+
+                                 <a href="#">Home</a>
+
+                                     <span>→</span>
+
+                                         <a href="#">Products</a>
+
+                                     </div>
+
+                                </div>
+
+                             </div>
+
+                         </div>
+
+                     </div>
+
+</section>
+
+</main>
+
+     <footer class="footer">
+     <div class="container">
+         <div class="footer-block footer-block_last">
+             <div class="copyright">Copyright 2018 ALL right By Polina. </div>
+         </div>
+     </div>
+</footer>
+
+<section class="section section_main">
+     <div class="container">
+         <div class="section_header"><h1>Featured Robotics Products To Show</h1>
+             <p>Who are in extremely love width eco friendly system.</p>
+                 <div class="product-card-container">
+                     <div class="product-card-wrap">
+                         <div class="product-card">
+                             <div class="product-card_image-wrap"><img class="product-card_image" src="img/p1.png"></div>
+                                 <div class="product-card_details"></div>
+                           
+                                   <h4 class="product-card_header">The Upper Eye</h4>
+                                   <p class="product-card_text">Who are in extremely love with eco friendly system</p>
+                                   <a class="product-card_button" href="#">View Details</a>
+
+                         </div>
+                     </div>
+                 </div>
+         </div>
+     </div>
+</section>
+
+
 </body>
 </html>
