@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Всплывание событий</title>
+</head>
+<body onclick="alert(' Элемент BODY')";>
+    <h2>Демонстрация всплывания событий</h2>
+         <div onclick="alert('Внешний блок DIV');"style="border-style:solid;width:330;height:150;">
+         DIV
+              <div onclick="alert('Внутренний блок DIV');"style="border-style:solid;width:200;height:100;">
+              DIV<br>
+              <span onclick="alert('Элемент SPAN-низший уровень');"style="border-style:solid;width:80;height:50;">
+              SPAN
+                 </span>
+             </div>
+         </div>
+    
+</body>
+</html>
