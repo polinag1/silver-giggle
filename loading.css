@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#maindiv{
+    width:860px;
+    height:640px;
+    border:2px solid red;
+    margin:0 auto;
+    background-color:rgb(240, 240, 170);  
+}
+
+#mprogress{
+    width:50%;
+    height:20px;
+    border:2px solid red;
+    margin-left:25%;
+    border-radius:10px;
+}
+
+#mainp{
+    width:50%;
+    margin-top:340px;
+    width:50%;
+    margin-left:25%;
+    
+}
+#progress{
+    height:20px;
+    width:0%;
+    background-color: indigo;
+    border-radius:10px;
+}
+
+
